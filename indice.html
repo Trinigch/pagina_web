@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Validación de Formulario con Javascript</title>
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+<!--<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> --->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <nav>
+        <button class="nav-boton" onclick="accion()" >  Menu </button>
+        <a  href="#" class="nav-enlace nav-enlace-desaparece">Inicio</a>
+        <a  href="#"class="nav-enlace nav-enlace-desaparece "> Nosotros</a>
+        <a  href="#"class="nav-enlace nav-enlace-desaparece">Servicios</a>
+        <a  href="#"class="nav-enlace nav-enlace-desaparece">Contacto</a>
+    </nav>
+
+    <section class="padre">
+        <p class ="columna">lorem ipsum*15 </p>
+        
+        <p class ="columna">lorem ipsum*15 </p>
+        
+        <p class ="columna">lorem ipsum*15 </p>
+
+    </section>
+    <section class="bloque_linea text-center">
+        <div class ="grupo">
+            <h3 class = "fila_titulo">Plan Uno </h3>
+            <h1 class ="fila_numero"> $ 500 </h1>
+            <p class ="fila">lorem lorem ipsum lorem ipsumlorem ipsumlorem ipsum</p>
+            <hr>
+            <p class ="fila">lorem ipsum*15 </p>
+           
+            <p class ="fila">lorem ipsum*15 </p>
+            <hr>
+            <button type="submit" class="button" onclick="accion()"> Comprar</button>
+        </div>
+        <div class ="grupo">
+            <h3 class = "fila_titulo" >Plan Dos </h3>
+            <h1 class ="fila_numero"> $ 500 </h1>
+            <p class ="fila">lorem lorem ipsum lorem ipsumlorem ipsumlorem ipsum</p>
+            <hr>
+            <p class ="fila">lorem ipsum*15 </p>
+        
+            <p class ="fila">lorem ipsum*15 </p>
+            <hr>
+            <button type="submit" class="button" onclick="accion()"> Comprar</button>
+        </div>
+       
+        <div class ="grupo">
+            <h3 class = "fila_titulo" >Plan Dos </h3>
+            <h1 class ="fila_numero"> $ 500 </h1>
+            <p class ="fila">lorem lorem ipsum lorem ipsumlorem ipsumlorem ipsum</p>
+            <hr>
+            <p class ="fila">lorem ipsum*15 </p>
+         
+            <p class ="fila">lorem ipsum*15 </p>
+            <hr>
+            <button type="submit" class="button" onclick="accion()"> Comprar</button>
+        </div>
+        <div class ="grupo">
+            <h3 class = "fila_titulo" >Plan Dos </h3>
+            <h1 class ="fila_numero"> $ 500 </h1>
+            <p class ="fila">lorem lorem ipsum lorem ipsumlorem ipsumlorem ipsum</p>
+            <hr>
+            <p class ="fila">lorem ipsum*15 </p>
+        
+            <p class ="fila">lorem ipsum*15 </p>
+            <hr>
+            <button type="submit" class="button" onclick="accion()"> Comprar</button>
+        </div>
+       
+
+    </section>
+
+
+	<main>
+
+		<form action="" class="formulario__grupo-input" id="Dar">
+
+			<!-- Grupo: nombre -->
+		    <div class="formulario__grupo" id="grupo__nombre">  
+				<label for="usuario" class="formulario__label">name</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="john123">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos.</p>
+			</div>
+
+            
+
+            <div class="formulario__grupo formulario__grupo-btn-enviar">
+				<button type="submit" class="button" onclick="accion()" >Enviar</button>
+				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+			</div>
+
+		</form>
+	</main>
+
+	<script src="js/Validacion.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
