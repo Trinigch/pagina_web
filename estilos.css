@@ -6,6 +6,18 @@ nav{
 	justify-content:space-around;
 }
 
+.nav-enlace{
+	background: salmon;
+	display:inline-block;
+	text-decoration: none;
+	color:rgb(126, 65, 65);/*color del texto*/
+	padding: 10px 30px;
+}
+
+.nav-enlace:hover{
+	background-color: rgb(114, 146, 250);
+}
+
 .columna{
 	background:#eedcdc;
 	margin : 10px;
@@ -13,33 +25,19 @@ nav{
 	width: 25%;
 }
 
-.nav-enlace{
-	background: salmon;
-	display:inline-block;
-	text-decoration: none;
-	color:rgb(126, 65, 65);/*color del texto*/
-	padding: 10px 30px;
-
-
-}
-
-.nav-enlace:hover{
-	background-color: rgb(114, 146, 250);
-
-}
-
 .button{
 	background-color: #e68484;
-	color:rgb(250, 248, 240);
-	
+	color:rgb(250, 248, 240);	
 	padding: 5px 50px;
 	justify-content:center;
 	border: 10px;
 }
+
 .button:hover{
 	background-color: #88afc5;
 	color:rgb(48, 11, 11);
 }
+
 .button:active{
 	background-color: #e480c6;
 	color:rgb(250, 242, 242);
@@ -52,6 +50,7 @@ nav{
 	padding: 20px;
 	width: 10%;
 }
+
 .menu{/*convierte un elemento de linea en bloque*/
 	background:#c7e2f1;
 	display:block;
@@ -59,7 +58,6 @@ nav{
 	padding: 20px;
 	width: 10%;
 }
-
 
 .fila{
 	
@@ -76,6 +74,7 @@ nav{
 	padding: 10px;
 	justify-content:right ;
 }
+
 .fila_numero{
 
 	color:#00dac7;
@@ -85,7 +84,6 @@ nav{
 	justify-content:center;
 }
 
-
 .fila_azul{
 	background:#85c0e2;
 	margin : 10px;
@@ -93,13 +91,13 @@ nav{
 
 }
 
-
 .fila_vacia{
 
 	margin : 10px;
 	padding: 20px;
 
 }
+
 .text-center{
 	text-align: center;
 }
@@ -115,8 +113,8 @@ nav{
 	margin : 10px;
 	padding: 30px;
 	justify-content:center;
-
 }
+
 .grupo{	
 	background:#e7e2e3;
 	margin : 10px;
